@@ -25,7 +25,7 @@ if (!fs.existsSync(file)) {
   fs.writeFileSync(file, "[]");
 }
 
-// input question using function
+// function with variable props
 const question = (Question) => {
   return new Promise((resolve, reject) => {
     rl.question(Question, (answer) => {
@@ -35,6 +35,7 @@ const question = (Question) => {
 };
 
 const main = async () => {
+  // call function question and insert string props
   const name = await question("What is your name? ");
   const phone = await question("What is your mobile phone? ");
   const email = await question("What is your email? ");
