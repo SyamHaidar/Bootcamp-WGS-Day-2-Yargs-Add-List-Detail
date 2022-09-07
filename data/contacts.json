@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Guest1",
+    "phone": "08123456789",
+    "email": "guest1@email.com"
+  },
+  {
+    "name": "Guest2",
+    "phone": "08198765432",
+    "email": "guest2@email.com"
+  },
+  {
+    "name": "Guest3",
+    "phone": "04123456789",
+    "email": "guest3@email.com"
+  }
+]
